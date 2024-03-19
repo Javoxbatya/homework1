@@ -1,0 +1,54 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+display: grid;
+place-items: center;
+}
+.Iris{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    display: grid;
+place-items: center;
+}
+.pupil{
+        height: 50px;
+        width: 50px;
+        background-color: black;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+}
+
+
+
+
+
+@keyframes eye {
+ 10%{
+    margin-left: 0px;
+ }
+ 30%{
+    margin-left: 190px;
+ }
+
+ 50%{
+        margin-left: 0px;
+ }
+
+ 90%{
+    margin-right: 190px;
+ }
+
+}
+
+.base{
+animation: eye 5.5s infinite linear;
+
+
+}
